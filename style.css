@@ -1,50 +1,115 @@
-@font-face {
-	font-family: Gotham Rounded;
-	src: url("font.otf") format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sarala:wght@400;700&display=swap');
 
-*, *::before, *::after {
-	box-sizing: border-box;
-	font-family: Gotham Rounded;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100vw;
-	height: 100vh;
-	background: url("bg.jpg") no-repeat fixed center;
-	background-size: cover;
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #4B0082 16.62%, #A020F0 85.61%);   
 }
 
-.container {
-	width: 600px;
-	max-width: 100%;
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 34px;
 }
 
-.black {
-	background-color: black;
-	padding: 10px;
-	text-align: center;
-	border-radius: 20px;
-	box-shadow: 0 0 10px 2px;
+.cabecalho-imagem {
+    height: 50px;
+    border-radius: 100%;
+    
 }
 
-.answer {
-	display: grid;
-	grid-template-columns: repeat(1, auto);
-	gap: 10px;
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #000000;
 }
 
-.black h1 {
-	color: yellow;
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 34px;
+
 }
 
-.black p {
-	font-size: 18px;
-	color: white;
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #000000;
+
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: "Sarala", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #000000;
+
+}
+
+.conteudo-principal-imagem {
+    border-radius: 100%;
+    box-shadow: 4px 5px 4px rgba (0, 0, 0, 9);
+
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #000000;
+    padding-top: 38px;
+    font-family: "Sarala", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #FFF2EF;
+
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: "Sarala", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFF2EF;
+
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    border-top: 0.4px solid #000000;
+    padding: 32px;
+}
+
+.rodape-titulo {
+    font-family: "Sarala", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFF2EF;
+    margin-bottom: 36px;
+
 }
