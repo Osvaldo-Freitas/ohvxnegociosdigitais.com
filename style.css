@@ -113,3 +113,30 @@ body {
     margin-bottom: 36px;
 
 }
+
+@media screen and (max width: 768px) {
+    .cabecalho {
+        display: block;
+        background-image: none;
+    }
+
+    .conteudo-principal {
+        display: block;
+        background: none;
+    }
+
+    .conteudo-principal-escrito {
+        display: block;
+        background: none;
+    }
+
+    .conteudo-secundario {
+        display: block;
+        background: none;
+    }
+
+    .rodape {
+        display: block;
+        background: none;
+    }
+}
