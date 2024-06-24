@@ -114,29 +114,32 @@ body {
 
 }
 
-@media screen and (max width: 768px) {
-    .cabecalho {
-        display: block;
-        background-image: none;
+@media screen and (max-width: 768px) {
+
+    .conteudo {
+       width: 100%;
+       flex-direction: column;
     }
 
     .conteudo-principal {
-        display: block;
-        background: none;
+        width: 100%;
+        flex-direction: column;
     }
 
-    .conteudo-principal-escrito {
-        display: block;
-        background: none;
+    .conteudo-principal-imagem {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 40px; 
     }
 
-    .conteudo-secundario {
-        display: block;
-        background: none;
+    .conteudo-secundario-paragrafo {
+        margin: 30px;
     }
 
     .rodape {
-        display: block;
-        background: none;
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 0%;
     }
+
 }
