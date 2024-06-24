@@ -129,7 +129,7 @@ body {
     .conteudo-principal-imagem {
         width: 100%;
         flex-direction: column;
-        padding-top: 40px; 
+        padding-top: 20px; 
     }
 
     .conteudo-secundario-paragrafo {
